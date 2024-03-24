@@ -1,0 +1,53 @@
+.musicDetails-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.musicDetails-mini-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.flex-start {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.img {
+  width: 120px;
+  border-radius: 20px;
+  margin-left: 20px;
+}
+.movie-name-card {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+.music-name {
+  color: #ffff;
+  font-family: 'Roboto';
+  font-size: 20px;
+}
+.movie-genre {
+  color: #3b82f6;
+  font-family: 'Roboto';
+  font-size: 20px;
+}
+.flex-end {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-left: 40px;
+}
+.time {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: #ffff;
+  margin-right: 20px;
+}
+.delete-icons {
+  font-size: 25px;
+  color: #ffff;
+  margin-right: 20px;
+}
